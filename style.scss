@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Define some global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    /* Input and Button styles */
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Result and Word Count styles */
+    #result {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    #wordCount {
+      margin-top: 10px;
+    }
+    /* Correct Words List styles */
+    #correctWords {
+      margin-top: 20px;
+
+      h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap:10px;
+        li {
+          font-size: 16px;
+          margin-bottom: 5px;
+        cursor: not-allowed;
+border: 1px solid black;
+        padding: .5rem;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 2px 2px rgb(109, 107, 107);
+        }
+      }
+    }
+  }
+}
